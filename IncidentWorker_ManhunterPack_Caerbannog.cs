@@ -12,8 +12,8 @@ namespace Caerbannog
         public override bool TryExecute(IncidentParms parms)
         {
             def.pawnKinds = (from k in DefDatabase<PawnKindDef>.AllDefs
-                             where k.RaceProps.Animal
-                             select k).ToList();
+                             where k.RaceProps.Animal && k.RaceProps.wildness >= 0.35f
+							 select k).ToList();
 
             return base.TryExecute(parms);
         }

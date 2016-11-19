@@ -1,5 +1,5 @@
-# The Mad Rabbits of Caerbannog
-Rimworld The Mad Rabbits of Caerbannog mod
+# The Disgruntled Rabbits of Caerbannog
+Rimworld The Disgruntled Rabbits of Caerbannog mod
 
 By default, the Manhunter Pack event picks from a very limited set of animals.
 
